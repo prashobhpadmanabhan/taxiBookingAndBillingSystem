@@ -45,10 +45,10 @@ public class BookingControllerTest {
         BookingResponse buildResult =
                 BookingResponse.builder()
                         .bookingTime("2024-03-05 15:25:58.032132")
-                        .dropoffLocation("a")
-                        .fare(15.0d)
+                        .dropoffLocation("b")
+                        .fare(100.0d)
                         .id(1L)
-                        .pickupLocation("b")
+                        .pickupLocation("a")
                         .status(Status.CANCELLED)
                         .taxiId(1L)
                         .userId(1L)
