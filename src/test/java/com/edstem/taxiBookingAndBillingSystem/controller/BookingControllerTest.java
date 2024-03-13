@@ -122,7 +122,7 @@ public class BookingControllerTest {
     void testSearchNearestTaxi() throws Exception {
         String pickupLocation = "a";
         List<TaxiResponse> expectedResponse =
-                Collections.singletonList(new TaxiResponse(1L, "z", "4001", "u"));
+                Collections.singletonList(new TaxiResponse(1L, "z", "4001", "s"));
 
         when(bookingService.searchNearestTaxi(pickupLocation)).thenReturn(expectedResponse);
 
